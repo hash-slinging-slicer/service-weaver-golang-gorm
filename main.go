@@ -255,7 +255,3 @@ func read(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 }
-
-func selectSpesifik(w http.ResponseWriter, r *http.Request) {
-
-}
