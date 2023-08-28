@@ -1,0 +1,8 @@
+[serviceweaver]
+binary = "./API-CRUD.exe"
+
+[single]
+listeners.API_CRUD = {address="localhost:8181"}
+
+[multi]
+listeners.API_CRUD = {address="localhost:8080"}
